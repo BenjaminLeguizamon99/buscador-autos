@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <title>Buscador de autos</title>
+</head>
+<body>
+    <header class="barra-de-navegacion">
+        <p class="text-center">Filtro de autos!</p>
+    </header>
+    <section class="img-fondo">
+        <div class="titulo-principal col-md-3">
+            <h1>Concesionaria de confianza!</h1>
+        </div>
+        
+    </section>
+    
+    <main class="seccion-principal"> 
+        
+        <section class="filtros container sticky-top">
+        
+            <fieldset class="contenedor-select">
+                <legend>Marca:</legend>
+                <select name="select" class="filtro-marca" id="marca">
+                    <option value="" selected>Todos</option>
+                    <option value="Audi">Audi</option>
+                    <option value="BMW">BMW</option>
+                    <option value="Citroen">Citroen</option>
+                    <option value="Jeep">Jeep</option>
+                    <option value="Ford">Ford</option>
+                </select>
+            </fieldset>
+            
+            <fieldset class="contenedor-select">
+                <legend>Año:</legend>
+                <select name="select" class="filtro-anio" id="year">
+                    <option value="">Todos</option>
+                </select>
+            </fieldset>
+            
+            <fieldset class="contenedor-select">
+                <legend>Precio min:</legend>
+                <select name="select" class="filtro-precio-min" id="minimo">
+                    <option value="" selected>Todos</option>
+                    <option value="10000">$10.000</option>
+                    <option value="20000">$20.000</option>
+                    <option value="30000">$30.000</option>
+                    <option value="40000">$40.000</option>
+                    <option value="50000">$50.000</option>
+                    <option value="60000">$60.000</option>
+                    <option value="70000">$70.000</option>
+                    <option value="80000">$80.000</option>
+                    <option value="90000">$90.000</option>
+                    <option value="100000">$100.000</option>
+                    <option value="110000">$110.000</option>
+                    <option value="120000">$120.000</option>
+                    <option value="130000">$130.000</option>
+                    <option value="140000">$140.000</option>
+                    <option value="150000">$150.000</option>
+                    <option value="160000">$160.000</option>
+                </select>
+            </fieldset>
+            
+            <fieldset class="contenedor-select">
+                <legend>Precio max:</legend>
+                <select name="select" class="filtro-precio-max" id="maximo">
+                    <option value="" selected>Todos</option>
+                    <option value="10000">$10.000</option>
+                    <option value="20000">$20.000</option>
+                    <option value="30000">$30.000</option>
+                    <option value="40000">$40.000</option>
+                    <option value="50000">$50.000</option>
+                    <option value="60000">$60.000</option>
+                    <option value="70000">$70.000</option>
+                    <option value="80000">$80.000</option>
+                    <option value="90000">$90.000</option>
+                    <option value="100000">$100.000</option>
+                    <option value="110000">$110.000</option>
+                    <option value="120000">$120.000</option>
+                    <option value="130000">$130.000</option>
+                    <option value="140000">$140.000</option>
+                    <option value="150000">$150.000</option>
+                    <option value="160000">$160.000</option>
+                </select>
+            </fieldset>
+            
+            <fieldset class="contenedor-select">
+                <legend>Transmision:</legend>
+                <select name="select" class="filtro-transmision" id="transmision">
+                    <option value="" selected>Todos</option>
+                    <option value="Manual">Manual</option>
+                    <option value="Automatico">Automático</option>
+                </select>
+            </fieldset>
+            
+            
+        </section>
+        <section class="cards-autos container pb-5">
+
+        </section>
+
+    </main>
+    
+    <footer class="container footer-flex pb-2">
+        <div>
+            <p>Creado por Benjamin Leguizamon</p>
+        </div>
+        <div class="iconos-flex">
+            <a href="https://www.linkedin.com/in/benjamin-leguizamon/" target="_blank"><i class="bi bi-linkedin iconos"></i></a>
+            <a href="https://github.com/BenjaminLeguizamon99" target="_blank" class="icono-github"><i class="bi bi-github iconos"></i></a>
+        </div>
+        <div>
+            Córdoba, Argentina.
+        </div>
+    </footer>
+    <script src="javascript/autos.js" type="module"></script>
+    <script src="javascript/main.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

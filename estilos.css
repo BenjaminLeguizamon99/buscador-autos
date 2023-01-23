@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.barra-de-navegacion {
+    color: #d7d9ce;
+    font-size: 2rem;
+    padding: .6rem;
+    background-color: #33445B;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+.img-fondo {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(imagenes/img-fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.titulo-principal h1 {
+    text-transform: uppercase;
+    font-size: 5rem;
+    text-align: center;
+    opacity: 1;
+    font-family: 'Oswald', sans-serif;
+    margin: 1.7rem;
+    color: #d7d9ce;
+}
+
+.seccion-principal {
+    background-color: #425876;
+}
+
+.filtros {
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #33445B;
+    color: #d7d9ce;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
+.filtro-marca, .filtro-anio, .filtro-precio-min, .filtro-precio-max, .filtro-transmision {
+    padding: .7rem;
+    border-radius: .5rem;
+    border: none;
+}
+
+.contenedor-select {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cards-autos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: .5rem;
+    justify-content: space-around;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.flex-cards {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-around;
+}
+.iconos-flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+.iconos{
+    font-size: 2rem;
+    margin: 0px 1rem 0px 1rem;
+}
+.icono-github {
+    text-decoration: none;
+    color: #000;
+}
+.icono-github:hover {
+    color: #292929;
+}
